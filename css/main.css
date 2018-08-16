@@ -1,0 +1,48 @@
+/* Headings */
+h1 {
+    font-size:60px; line-height:65px; font-family: 'Merriweather', serif;
+    padding:20px;
+    text-align:center;
+}
+h2 {font-size:55px; line-height:60px; font-family: 'Merriweather', serif;}
+h3 {font-size:48px; line-height:54px; font-family: 'Merriweather', serif;}
+h4 {font-size:40px; line-height:46px; font-family: 'Merriweather', serif;}
+h5 {font-size:32px; line-height:40px; font-family: 'Merriweather', serif;}
+h6 {font-size:25px; line-height:30px; font-family: 'Merriweather', serif;}
+body{
+    width:960px;
+    margin:auto;
+    padding:20px;
+    background: teal;
+    padding:20px;
+}
+a{
+    font-size:40px;
+    text-align:center;
+    padding:20px;
+    display: inline-block;
+    background: lightgray;
+    border: 1px solid black;
+    border-radius:10px;
+    margin:20px;
+}
+a:hover{
+    background:green;
+}
+a:active{
+    background:red;
+}
+a:focus{
+    background:orange;
+}
+a:default{
+    color:blue;
+    font-size:10px;
+}
+a:visited{
+    color:teal;
+}
+.content_wrapper{
+    background: #ffffff;
+    padding:20px;
+}
